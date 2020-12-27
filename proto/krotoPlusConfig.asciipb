@@ -1,0 +1,9 @@
+grpc_stub_exts {
+    support_coroutines: true
+}
+
+grpc_coroutines {}
+
+proto_builders {
+    use_dsl_markers: true
+}
